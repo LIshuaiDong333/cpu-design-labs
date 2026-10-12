@@ -1,0 +1,29 @@
+# Only explicitly reviewed files may be committed.
+*
+!*/
+!/.gitignore
+!/README.md
+!/Vivado_exp/project_1/project_1.srcs/sim_1/new/testbench.v
+!/Vivado_exp/project_1/project_1.srcs/sources_1/new/flowing_water_lights.v
+!/Vivado_exp/project_1/project_1.xpr
+!/Vivado_exp/project_2/project_2.srcs/sim_1/new/ex1_tb.v
+!/Vivado_exp/project_2/project_2.srcs/sources_1/new/ex1_block.v
+!/Vivado_exp/project_2/project_2.xpr
+
+# Never track private reports, archives, captures, or credentials.
+*.doc
+*.docx
+*.docm
+*.pdf
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.tgz
+*.pcap
+*.pcapng
+.env
+.env.*
+*.pem
+*.key
